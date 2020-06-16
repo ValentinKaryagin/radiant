@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Radiant.h" />
+    <ClInclude Include="CPPStd.h">
+      <Filter>Std</Filter>
+    </ClInclude>
+    <ClInclude Include="CStd.h">
+      <Filter>Std</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsMutex.h">
+      <Filter>Platform\WindowsPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Plugin.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PluginsManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLRenderer.h">
+      <Filter>Platform\Renderer\OpenGLRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletPhysicsRigidBody.h">
+      <Filter>Platform\Physics\BulletPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletPhysics.h">
+      <Filter>Platform\Physics\BulletPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="GLFWApplication.h">
+      <Filter>Platform\Application\GLFWApplication</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletPhysicsCollisionShape.h">
+      <Filter>Platform\Physics\BulletPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletPhysicsSphereShape.h">
+      <Filter>Platform\Physics\BulletPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletPhysicsCapsuleShape.h">
+      <Filter>Platform\Physics\BulletPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsAPI.h">
+      <Filter>Platform\WindowsPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsPlatform.h">
+      <Filter>Platform\WindowsPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Engine\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMeshActor.h">
+      <Filter>Engine\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorComponent.h">
+      <Filter>Engine\Actor\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="InputComponent.h">
+      <Filter>Engine\Actor\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraComponent.h">
+      <Filter>Engine\Actor\Components\SceneComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneComponent.h">
+      <Filter>Engine\Actor\Components\SceneComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioComponent.h">
+      <Filter>Engine\Actor\Components\SceneComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2CommonsInitializer.h">
+      <Filter>Platform\Commons\SDL2Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugMessage.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLTexture.h">
+      <Filter>Platform\Renderer\OpenGLRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectInput.h">
+      <Filter>Platform\Input\DirectInput</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectInputDevice.h">
+      <Filter>Platform\Input\DirectInput</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectMouseDevice.h">
+      <Filter>Platform\Input\DirectInput</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectKeyboardDevice.h">
+      <Filter>Platform\Input\DirectInput</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectGameDevice.h">
+      <Filter>Platform\Input\DirectInput</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineLogic.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Std.h">
+      <Filter>Std</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformation.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectionMatrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RotationMatrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="ScalationMatrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="TranslationMatrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewMatrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>Platform\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="SteamVRSystem.h">
+      <Filter>Platform\VRSystem\SteamVRSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="VRStereo.h">
+      <Filter>Platform\VRSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2FontTTF.h">
+      <Filter>Platform\Commons\SDL2Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL2Surface.h">
+      <Filter>Platform\Commons\SDL2Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Commons.h">
+      <Filter>Platform\Commons</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Platform\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Platform\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Platform\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Platform\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="VRSystem.h">
+      <Filter>Platform\VRSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsFile.h">
+      <Filter>Platform\WindowsPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="Assert.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Asset.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsThread.h">
+      <Filter>Platform\WindowsPlatform</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Object.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Plugin.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PluginsManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLRenderer.cpp">
+      <Filter>Platform\Renderer\OpenGLRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletPhysicsRigidBody.cpp">
+      <Filter>Platform\Physics\BulletPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletPhysics.cpp">
+      <Filter>Platform\Physics\BulletPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWApplication.cpp">
+      <Filter>Platform\Application\GLFWApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletPhysicsSphereShape.cpp">
+      <Filter>Platform\Physics\BulletPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletPhysicsCapsuleShape.cpp">
+      <Filter>Platform\Physics\BulletPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Engine\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMeshActor.cpp">
+      <Filter>Engine\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorComponent.cpp">
+      <Filter>Engine\Actor\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="InputComponent.cpp">
+      <Filter>Engine\Actor\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraComponent.cpp">
+      <Filter>Engine\Actor\Components\SceneComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneComponent.cpp">
+      <Filter>Engine\Actor\Components\SceneComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioComponent.cpp">
+      <Filter>Engine\Actor\Components\SceneComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL2CommonsInitializer.cpp">
+      <Filter>Platform\Commons\SDL2Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugMessage.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletPhysicsCollisionShape.cpp">
+      <Filter>Platform\Physics\BulletPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLTexture.cpp">
+      <Filter>Platform\Renderer\OpenGLRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectInput.cpp">
+      <Filter>Platform\Input\DirectInput</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectInputDevice.cpp">
+      <Filter>Platform\Input\DirectInput</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectKeyboardDevice.cpp">
+      <Filter>Platform\Input\DirectInput</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectMouseDevice.cpp">
+      <Filter>Platform\Input\DirectInput</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectGameDevice.cpp">
+      <Filter>Platform\Input\DirectInput</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineLogic.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SteamVRSystem.cpp">
+      <Filter>Platform\VRSystem\SteamVRSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL2FontTTF.cpp">
+      <Filter>Platform\Commons\SDL2Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL2Surface.cpp">
+      <Filter>Platform\Commons\SDL2Commons</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Asset.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Std">
+      <UniqueIdentifier>{438ee316-5b9f-42e0-b35e-0fa49b5597f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{ff4435b9-4cb6-4d74-a6af-d693bdaeb90f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{47d55199-34ec-4392-8275-e7c90ca0bfed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configs">
+      <UniqueIdentifier>{4bd8bee2-5773-471c-b2c5-637b7a02554b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{f4a96a8d-5850-4903-b0e1-953520f62e37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\WindowsPlatform">
+      <UniqueIdentifier>{8f90719e-942b-4452-b5bd-b70073871670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Actor">
+      <UniqueIdentifier>{3bddc6c0-6511-4c37-b199-1400d582ce9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Actor\Components">
+      <UniqueIdentifier>{2fb4c4d7-2d9c-4eac-9297-8ec67a593885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Actor\Components\SceneComponents">
+      <UniqueIdentifier>{af8fdf00-5496-4cc2-8afe-b44b885d4f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\UI">
+      <UniqueIdentifier>{c5c99cff-8c06-44c4-a5fb-4f74c1016e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{f1bb9f01-c91b-4bb5-861e-f77cc8f84083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{565eb3b7-7c3e-4163-98b9-ce6f716ea6a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Application">
+      <UniqueIdentifier>{2a8aaadd-14f3-4d12-a1fd-2d7260c78850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Application\GLFWApplication">
+      <UniqueIdentifier>{207c50d3-e5c8-4e6a-a5ea-9c5940d07971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Audio">
+      <UniqueIdentifier>{4d3bce31-0c7d-4b77-951e-6fbd6fcaa73b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Commons">
+      <UniqueIdentifier>{152bf3e5-ad89-4cb1-b5ba-4f6feb3883e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Commons\SDL2Commons">
+      <UniqueIdentifier>{de471cf2-6eb0-4375-a9aa-b783a106235c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Input">
+      <UniqueIdentifier>{4c535738-f420-460c-9aa3-b2e2ebc41041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Input\DirectInput">
+      <UniqueIdentifier>{3187f441-46c3-4076-92e9-2b91e90a31b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Network">
+      <UniqueIdentifier>{448e0b59-766f-4a26-9ca8-8de51ac0e871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Physics">
+      <UniqueIdentifier>{7f82aa74-8f76-4466-a7fa-ce43ab97cd29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Physics\BulletPhysics">
+      <UniqueIdentifier>{a0471413-0cc9-494f-b971-86f0e4362f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Renderer">
+      <UniqueIdentifier>{da2e845f-98e1-4d8b-8f26-e22ee1c85791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Renderer\OpenGLRenderer">
+      <UniqueIdentifier>{296087a2-73b1-4a33-8f22-562f554b03c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\VRSystem">
+      <UniqueIdentifier>{f37060d4-7c11-4649-8371-448a49cecab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\VRSystem\SteamVRSystem">
+      <UniqueIdentifier>{a4e30392-3a6b-424c-835a-80d343b3585d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Plugins.list">
+      <Filter>Configs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Radiant.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

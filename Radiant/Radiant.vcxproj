@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugVR|Win32">
+      <Configuration>DebugVR</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugVR|x64">
+      <Configuration>DebugVR</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{E0F9C08D-C2F3-4504-88DB-6121E6CDE516}</ProjectGuid>
+    <RootNamespace>Radiant</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugVR|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugVR|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugVR|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugVR|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugVR|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\ThirdParty\;..\ThirdParty\SDL2_image\;..\ThirdParty\SDL2_ttf\;..\ThirdParty\SDL2\;..\ThirdParty\OpenVR\;..\ThirdParty\GLFW\;..\ThirdParty\BulletPhysics\;..\ThirdParty\GL\</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>BulletCollision_Debug.lib;BulletDynamics_Debug.lib;BulletInverseDynamics_Debug.lib;BulletSoftBody_Debug.lib;LinearMath_Debug.lib;glew32.lib;opengl32.lib;glfw3d.lib;SDL2.lib;SDL2_ttf.lib;SDL2_image.lib;openvr_api.lib;dinput8.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>..\ThirdParty\</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugVR|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\ThirdParty\;..\ThirdParty\SDL2_image\;..\ThirdParty\SDL2_ttf\;..\ThirdParty\SDL2\;..\ThirdParty\OpenVR\;..\ThirdParty\GLFW\;..\ThirdParty\BulletPhysics\;..\ThirdParty\GL\</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>BulletCollision_Debug.lib;BulletDynamics_Debug.lib;BulletInverseDynamics_Debug.lib;BulletSoftBody_Debug.lib;LinearMath_Debug.lib;glew32.lib;opengl32.lib;glfw3d.lib;SDL2.lib;SDL2_ttf.lib;SDL2_image.lib;openvr_api.lib;dinput8.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>..\ThirdParty\</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\ThirdParty\;..\ThirdParty\SDL2_image\;..\ThirdParty\SDL2_ttf\;..\ThirdParty\SDL2\;..\ThirdParty\OpenVR\;..\ThirdParty\GLFW\;..\ThirdParty\BulletPhysics\;..\ThirdParty\GL\</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>BulletCollision.lib;BulletDynamics.lib;BulletInverseDynamics.lib;BulletSoftBody.lib;LinearMath.lib;glew32.lib;opengl32.lib;glfw3d.lib;SDL2.lib;SDL2_ttf.lib;SDL2_image.lib;openvr_api.lib;dinput8.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>..\ThirdParty\</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Actor.h" />
+    <ClInclude Include="ActorComponent.h" />
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="Assert.h" />
+    <ClInclude Include="Asset.h" />
+    <ClInclude Include="AudioComponent.h" />
+    <ClInclude Include="BulletPhysics.h" />
+    <ClInclude Include="BulletPhysicsCapsuleShape.h" />
+    <ClInclude Include="BulletPhysicsCollisionShape.h" />
+    <ClInclude Include="BulletPhysicsRigidBody.h" />
+    <ClInclude Include="BulletPhysicsSphereShape.h" />
+    <ClInclude Include="CameraComponent.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="Commons.h" />
+    <ClInclude Include="CPPStd.h" />
+    <ClInclude Include="CStd.h" />
+    <ClInclude Include="DebugMessage.h" />
+    <ClInclude Include="DirectGameDevice.h" />
+    <ClInclude Include="DirectInputDevice.h" />
+    <ClInclude Include="DirectKeyboardDevice.h" />
+    <ClInclude Include="DirectMouseDevice.h" />
+    <ClInclude Include="EditorEngine.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="GLFWApplication.h" />
+    <ClInclude Include="DirectInput.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Key.h" />
+    <ClInclude Include="Math.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="Physics.h" />
+    <ClInclude Include="ProjectionMatrix.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="RotationMatrix.h" />
+    <ClInclude Include="ScalationMatrix.h" />
+    <ClInclude Include="WindowsThread.h" />
+    <ClInclude Include="TranslationMatrix.h" />
+    <ClInclude Include="ViewMatrix.h" />
+    <ClInclude Include="Misc.h" />
+    <ClInclude Include="SteamVRSystem.h" />
+    <ClInclude Include="Quaternion.h" />
+    <ClInclude Include="Std.h" />
+    <ClInclude Include="EngineLogic.h" />
+    <ClInclude Include="InputComponent.h" />
+    <ClInclude Include="Frame.h" />
+    <ClInclude Include="OpenGLRenderer.h" />
+    <ClInclude Include="OpenGLTexture.h" />
+    <ClInclude Include="SDL2CommonsInitializer.h" />
+    <ClInclude Include="SDL2FontTTF.h" />
+    <ClInclude Include="SDL2Surface.h" />
+    <ClInclude Include="Transformation.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="Vector2.h" />
+    <ClInclude Include="Vector3.h" />
+    <ClInclude Include="VRStereo.h" />
+    <ClInclude Include="VRSystem.h" />
+    <ClInclude Include="WindowsAPI.h" />
+    <ClInclude Include="Plugin.h" />
+    <ClInclude Include="PluginsManager.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneComponent.h" />
+    <ClInclude Include="StaticMeshActor.h" />
+    <ClInclude Include="WindowsFile.h" />
+    <ClInclude Include="WindowsMutex.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Platform.h" />
+    <ClInclude Include="Radiant.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="WindowsPlatform.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="ActorComponent.cpp" />
+    <ClCompile Include="Asset.cpp" />
+    <ClCompile Include="AudioComponent.cpp" />
+    <ClCompile Include="BulletPhysics.cpp" />
+    <ClCompile Include="BulletPhysicsCapsuleShape.cpp" />
+    <ClCompile Include="BulletPhysicsCollisionShape.cpp" />
+    <ClCompile Include="BulletPhysicsRigidBody.cpp" />
+    <ClCompile Include="BulletPhysicsSphereShape.cpp" />
+    <ClCompile Include="CameraComponent.cpp" />
+    <ClCompile Include="Color.cpp" />
+    <ClCompile Include="DebugMessage.cpp" />
+    <ClCompile Include="DirectGameDevice.cpp" />
+    <ClCompile Include="DirectInputDevice.cpp" />
+    <ClCompile Include="DirectKeyboardDevice.cpp" />
+    <ClCompile Include="DirectMouseDevice.cpp" />
+    <ClCompile Include="EditorEngine.cpp" />
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="EngineLogic.cpp" />
+    <ClCompile Include="GLFWApplication.cpp" />
+    <ClCompile Include="InputComponent.cpp" />
+    <ClCompile Include="Frame.cpp" />
+    <ClCompile Include="Math.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="OpenGLRenderer.cpp" />
+    <ClCompile Include="OpenGLTexture.cpp" />
+    <ClCompile Include="Platform.cpp" />
+    <ClCompile Include="SteamVRSystem.cpp" />
+    <ClCompile Include="Plugin.cpp" />
+    <ClCompile Include="PluginsManager.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneComponent.cpp" />
+    <ClCompile Include="SDL2CommonsInitializer.cpp" />
+    <ClCompile Include="SDL2FontTTF.cpp" />
+    <ClCompile Include="DirectInput.cpp" />
+    <ClCompile Include="SDL2Surface.cpp" />
+    <ClCompile Include="StaticMeshActor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Plugins.list" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Radiant.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
